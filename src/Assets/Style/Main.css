@@ -1,0 +1,21 @@
+@import './Posts.css';
+@import './Header.css';
+@import './Button.css';
+@import './Loading.css';
+@import './Podcast.css';
+@import './PodcastSlide.css';
+@import './AddPodcast.css';
+@import './DiscussionTopic.css';
+@import './TopicComment.css';
+@import './TopicUniqueComment.css';
+@import './AddTopic.css';
+@import './AllTopics.css';
+@import './Login.css';
+@import './AddUser.css';
+@import './NavBar.css';
+@import './AllNews.css';
+@import './Footer.css';
+* {
+  box-sizing: border-box;
+  margin: 0;
+}

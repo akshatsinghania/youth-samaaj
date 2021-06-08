@@ -1,0 +1,16 @@
+.addtopic {
+  display: flex;
+  flex-direction: column;
+}
+.addtopic input {
+  border-radius: 10px;
+  border-width: 1px;
+  width: 60%;
+  margin: 2% 20%;
+  padding: 10px;
+}
+.addtopic button {
+  width: 30%;
+  margin: 2% 35%;
+  padding: 10px;
+}

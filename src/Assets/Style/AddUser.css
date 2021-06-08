@@ -1,0 +1,9 @@
+.adduser {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.adduser textarea {
+  padding: 10px;
+  margin:10px;
+}

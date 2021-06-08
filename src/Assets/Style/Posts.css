@@ -1,0 +1,152 @@
+/* Create two equal columns that floats next to each other */
+.allpost {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.allpost_post {
+  float: left;
+  width: 46%;
+  padding: 10px;
+  margin: 1% 2%;
+  background-color: #ffffff;
+}
+/*Post 4 starts*/
+.allpost_post4 {
+  float: left;
+  width: 23%;
+  padding: 10px;
+  margin: 1% 2%;
+  background-color: #ffffff;
+}
+.allpost_post4 p {
+  margin: 10px 10px;
+  font-size: small;
+  text-align: center;
+  color: #5a5a5a;
+  font-weight: 400;
+}
+.allpost_post4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  pointer-events: none;
+}
+.allpost_post4 h1 {
+  font-size: medium;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+/*post 4 ends*/
+/* Clear floats after the columns */
+.allpost_posts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.allpost_postTitle {
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+.allpost_post p {
+  margin: 10px 10px;
+  font-size: medium;
+  text-align: center;
+  color: #5a5a5a;
+  font-weight: 400;
+}
+.allpost_post img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  pointer-events: none;
+}
+/*Post*/
+.post {
+  /* padding-left: 10%;*/
+  background-color: rgb(233, 233, 233);
+}
+.post_contentwrap {
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  background-color: rgb(233, 233, 233);
+
+  padding: 10px;
+}
+.post_content {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.post_contentTitle {
+  font-size: 2em;
+}
+.post_contentTitleImage {
+  display: block;
+}
+
+.post_content img {
+  display: none;
+}
+
+.post_content * {
+  padding: 24px;
+
+  border-radius: 8px;
+}
+.mobile_rotate {
+  background-color: #a0ff48;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .pc {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+}
+.addpost {
+  padding: 10px;
+}
+.addpost * {
+  box-sizing: border-box;
+}
+
+.addpost input {
+  margin: 1% 25%;
+  padding: 10px;
+  outline: none;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 50%;
+}
+.addpost h1 {
+  text-align: center;
+  font-weight: 400;
+}
+.addpost_title {
+  text-align: center;
+  font-weight: 300;
+  margin: 5%;
+}
+.addpost_submit {
+  padding: 10px;
+  margin: 10% 45%;
+  width: 10%;
+  border-width: 1px;
+  background-color: #f7f1f1;
+}

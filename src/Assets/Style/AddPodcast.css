@@ -1,0 +1,32 @@
+.addpodcast {
+  margin-top: 10%;
+}
+.addpodcast_form {
+  display: flex;
+  flex-direction: column;
+}
+.addpodcast_form input {
+  width: 40%;
+  margin: 10px 30%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-width: 0.5px;
+}
+.addpodcast_form button {
+  font-weight: 700;
+  width: 30%;
+  padding: 10px;
+  margin: 10px 35%;
+  border-radius: 10px;
+  border-width: 0.5px;
+  background-color: rgb(255, 247, 138);
+}
+.addpodcast_form button:hover {
+  color: rgb(247, 230, 0);
+  background-color: #ffffff;
+}
+.addpodcast_form button:active {
+  color: #ffffff;
+  background-color: rgb(247, 230, 0);
+}

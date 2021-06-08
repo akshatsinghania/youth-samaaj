@@ -1,0 +1,21 @@
+.topiccomments {
+  background-color: #fafafa;
+}
+.topiccomments_comments {
+}
+.comment_add {
+  display: flex;
+  flex-direction: column;
+}
+.comment_add input {
+  width: 20%;
+  padding: 4px;
+}
+.comment_add button {
+  margin: 2px;
+  width: 10%;
+  padding: 4px;
+  background-color: #fafafa;
+  border-width: 1px;
+  color: #585858;
+}
